@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+// what if the business service doing? It's talking to a repository, adding a little big of
+// business logic and returning it back
+
 @Component
 public class ItemBusinessService {
 
@@ -26,9 +29,5 @@ public class ItemBusinessService {
 
         return repository.findAll();
     }
-
-
-
-
 
 }
